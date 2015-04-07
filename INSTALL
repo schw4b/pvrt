@@ -1,0 +1,38 @@
+PVRT - Peripheral Visual Recognition Task for Python
+====================================================
+by Simon Schwab
+
+A. Requirements
+===============
+
+- PsychoPy v1.60 or highter (http://www.psychopy.org/)
+- Tk/Tkinter a Graphical User Interface Framework
+- PortIO (http://portio.inrim.it/)
+- OpenGL
+
+B. Installation instruction for Ubuntu
+======================================
+
+a) Install PsychoPy requirements
+  $ sudo apt-get install python-wxgtk2.8 python-numpy python-scipy python-pyglet
+
+b) $ sudo apt-get install psychopy
+
+c) Install Tkinter
+   $ sudo apt-get install python-tk #if not already installed
+
+d) PortIO
+   Download PortIO from http://portio.inrim.it/ and unpack it
+   $ tar xvf portio-0.4.tar.gz
+   $ cd portio-0.4/
+   But first, before we build it, you need python-dev
+   $ sudo apt-get install python-dev #if not already installed
+   Build and install PortIO
+   $ sudo python setup.py install
+
+f) $ sudo apt-get install python-opengl #if not already installed
+
+g) Finally, install and run pvrtask
+   Unpack the pvrtask package
+   cd pvrtask/src
+   $ sudo python pvrtask.py
