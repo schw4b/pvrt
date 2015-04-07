@@ -2,6 +2,17 @@ PVRT - Peripheral Visual Recognition Task for Python
 ====================================================
 by Simon Schwab
 
+PVRT (Peripheral visual recognition task) is opensource Python software
+based on the PsychoPy framework to conduct visual experiments, in which
+first a visual target is presented in the center and then in the periphery
+of the visual field.
+
+- Presentation of visual stimuli using OpenGL
+- Recording of subject responses through parallel port using the PortIO library
+- Eye and head calibration according to the requirements of the eye tracker
+- Notification of the eye tracker (TTL signals)
+- Well structured data files for further processing
+
 A. Requirements
 ===============
 
